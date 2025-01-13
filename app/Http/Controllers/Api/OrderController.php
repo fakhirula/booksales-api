@@ -46,7 +46,6 @@ class OrderController extends Controller
             ], 401);
         }
 
-
         // ambil 1 data buku
         $book = Book::find($request->book_id);
 
